@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="EDC">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_brilink"
+                    android:icon="@drawable/ic_supervisor_account_black_24dp"
+                    android:title="@string/text_brilink" />
+                <item
+                    android:id="@+id/nav_merchant"
+                    android:icon="@drawable/ic_attach_money_black_24dp"
+                    android:title="@string/text_merchant" />
+                <item
+                    android:id="@+id/nav_uko"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="@string/text_uko" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

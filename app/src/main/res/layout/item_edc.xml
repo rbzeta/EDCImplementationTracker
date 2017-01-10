@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/text_impl_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_item_edc_impl_branch"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="@string/text_brilink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_item_edc_type"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/text_sample_tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_item_edc_tid"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp" />
+
+    <TextView
+        android:text="@string/text_sample_agen_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_item_edc_name"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:text="@string/text_sample_agent_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_item_edc_address"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+</LinearLayout>
